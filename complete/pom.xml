@@ -28,7 +28,7 @@
     </dependencies>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>${env.BUILD_JAVA_VERSION}</java.version>
     </properties>
 
     <build>
