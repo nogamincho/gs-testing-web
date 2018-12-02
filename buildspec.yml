@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - cd complete
+      - mvn --version
+  build:
+    commands:
+      - mvn test
