@@ -12,7 +12,8 @@
 	<name>Spring Boot Test Sample</name>
 	<description>Spring Boot Test Sample</description>
 	<properties>
-		<main.basedir>${basedir}/../..</main.basedir>
+        <java.version>${env.BUILD_JAVA_VERSION}</java.version>
+    </properties>
 	</properties>
 	<dependencies>
 		<!-- Compile -->
