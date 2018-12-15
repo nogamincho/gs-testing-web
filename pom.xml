@@ -14,7 +14,6 @@
 	<properties>
         <java.version>${env.BUILD_JAVA_VERSION}</java.version>
     </properties>
-	</properties>
 	<dependencies>
 		<!-- Compile -->
 		<dependency>
